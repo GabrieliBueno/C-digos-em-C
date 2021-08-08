@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main()
+{
+	
+int q, a=0, b=1;
+
+printf("Digite um numero: ");
+
+scanf("%d",&a);
+
+for(q=1;q<=a;q++)
+
+{
+
+printf("\n %d ",q);
+
+b = b*q;
+ }
+ 
+printf("\n\n O produto dos numeros eh: %d \n\n",b);
+
+
+system("pause");
+
+return(0);
+
+}
