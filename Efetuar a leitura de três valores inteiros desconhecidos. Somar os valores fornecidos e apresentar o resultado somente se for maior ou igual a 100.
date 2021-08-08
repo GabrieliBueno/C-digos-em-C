@@ -1,0 +1,83 @@
+#include <stdlib.h>
+
+#include <stdio.h>
+
+
+
+int main()
+
+
+
+{
+
+	int N, L, A;
+
+
+
+
+
+	printf("Digite um numero: ");
+
+		
+
+	scanf("%d", &N);
+
+	
+
+	printf("Digite um numero: ");
+
+		
+
+	scanf("%d", &L);
+
+	
+
+	printf("Digite um numero: ");
+
+		
+
+	scanf("%d", &A);
+
+	
+
+	L = N + L + A;
+
+
+
+	if (L >= 100)
+
+	{
+
+		
+
+	printf("O seu numero eh: %d \n", L);
+
+}
+
+
+
+
+
+else
+
+
+
+{
+
+	
+
+printf("INVALIDO \n");
+
+}
+
+
+
+system("pause");
+
+return 0;
+
+	
+
+
+
+}
