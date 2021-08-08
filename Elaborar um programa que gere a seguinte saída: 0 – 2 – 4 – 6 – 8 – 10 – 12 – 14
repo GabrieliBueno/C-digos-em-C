@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-//  Elaborar um programa que gere a seguinte saída: 0 – 2 – 4 – 6 – 8 – 10 – 12 – 14
 
 int main()
 {
