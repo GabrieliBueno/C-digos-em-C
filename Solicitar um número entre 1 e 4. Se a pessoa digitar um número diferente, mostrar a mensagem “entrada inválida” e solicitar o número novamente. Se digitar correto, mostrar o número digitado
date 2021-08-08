@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+#include <stdlib.h>
+
+
+
+main()
+
+{
+
+      int a ; 
+
+      
+
+      do
+
+      {   
+
+            printf ("\n Digite um numero de 1 a 4: ");
+
+            scanf("%d", &a);
+
+            
+
+        	if (a<1 || a>4)
+
+            printf("opcao invalida \n");
+
+            
+
+      } 
+
+      while (a<1 || a>4);
+
+	  
+
+            printf(" o numero digitado eh %d", a);
+
+
+
+      system("pause");
+
+return 0;
+
+
+
+}
