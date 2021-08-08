@@ -1,0 +1,45 @@
+#include <stdlib.h>
+
+#include <stdio.h>
+
+
+
+int main()
+
+
+
+{
+
+	int N, L;
+
+
+
+	printf("Digite um numero: ");
+
+		
+
+	scanf("%d", &N);
+
+	L = N * (-1);
+
+
+
+	if (N > 0)
+
+	{
+
+	printf("O seu numero eh: %d", N);
+
+}
+
+else
+
+{
+
+printf("O seu numero eh: %d", L);}
+
+return 0;
+
+	
+
+}
