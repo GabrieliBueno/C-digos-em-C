@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (int argc, char *argv [])
+
+{
+int opcao;
+int valor;
+
+
+printf("Converter: \n");
+printf("1: decimal para hexadecimal\n");
+printf("2: hexadecimal para decimal\n");
+printf("\nInforme sua opcao: ");
+scanf("%d", &opcao);
+getchar(); // limpar 
+
+switch(opcao)
+{
+case 1:
+printf("\nInforme o valor em decimal: ");
+scanf("%d", &valor);
+getchar();
+printf("%d em hexadecimal eh: %x \n\n", valor,valor);
+break;
+
+case 2:
+printf("\nInforme o valor em hexadecimal: ");
+scanf("%x", &valor); // %x = valor em hexadecimal
+getchar();
+printf("%x em decimal eh: %d \n\n", valor,valor);
+break;
+
+default:
+printf("\nOpcao invalida\n");
+
+}// end switch
+system("pause");
+return 0;
+
+}
